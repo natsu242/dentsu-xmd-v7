@@ -1,0 +1,79 @@
+[
+  {
+    "id": "listblock",
+    "name": "listblock",
+    "category": "admin",
+    "description": "List blocked users",
+    "commands": ["listblock", "listban"],
+    "aliases": ["listblock", "listban"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/admin/listblock.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "unblock",
+    "name": "unblock",
+    "category": "admin",
+    "description": "Unblock or unban a user",
+    "commands": ["unblock", "unban"],
+    "aliases": ["unblock", "unban"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/unblock.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "block",
+    "name": "block",
+    "category": "admin",
+    "description": "Block or ban a user",
+    "commands": ["block", "ban"],
+    "aliases": ["block", "ban"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/admin/block.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "getpp",
+    "name": "getpp",
+    "category": "utility",
+    "description": "Get profile picture of a user",
+    "commands": ["getpp"],
+    "aliases": ["getpp"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/utility/getpp.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "mathgpt",
+    "name": "mathgpt",
+    "category": "tools",
+    "description": "Solve math problems using AI",
+    "commands": ["mathgpt", "mathai"],
+    "aliases": ["mathgpt", "mathai"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/tools/mathgpt.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "lyrics2",
+    "name": "lyrics2",
+    "category": "downloads",
+    "description": "Search for song lyrics",
+    "commands": ["lyrics2"],
+    "aliases": ["lyrics2"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/downloads/lyrics2.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  },
+  {
+    "id": "chemistryai",
+    "name": "chemistryai",
+    "category": "education",
+    "description": "Ask chemistry or physics questions",
+    "commands": ["chemistryai", "chemai"],
+    "aliases": ["chemistryai", "chemai"],
+    "url": "https://raw.githubusercontent.com/Tennor-modz/trashcore-extplugins/main/tools/chemistryai.js",
+    "author": "TrashX",
+    "version": "1.0.0"
+  }
+]
