@@ -4570,7 +4570,12 @@ async function autoReconnectFromGitHub() {
             }
         }
     } catch (error) {
-        console.error('❌ autoReconnectFromGitHub error:', error.message);
+        // 404 = pas encore de sessions sauvegardées — normal au premier démarrage
+        if (error.status === 404 || error.message === 'Not Found') {
+            console.log('ℹ️ Aucune session GitHub trouvée (première installation) — OK');
+        } else {
+            console.error('❌ autoReconnectFromGitHub error:', error.message);
+        }
     }
 }
 
