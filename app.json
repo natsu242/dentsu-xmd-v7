@@ -1,0 +1,33 @@
+{
+  "name": "dentsu-xmd-v7",
+  "description": "DENTSUS V7 XMD — WhatsApp Bot by Natsu Tech",
+  "repository": "https://github.com/votre-username/dentsu-xmd-v7",
+  "keywords": ["nodejs", "whatsapp", "bot", "automation"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your session ID (starts with dentsu~)",
+      "value": "dentsu~",
+      "required": true
+    },
+    "AUTOREAD_ENABLED": {
+      "description": "Auto read messages (true/false)",
+      "value": "false"
+    },
+    "AUTOTYPING_ENABLED": {
+      "description": "Auto typing presence (true/false)",
+      "value": "false"
+    },
+    "AUTORECORD_ENABLED": {
+      "description": "Auto recording presence (true/false)",
+      "value": "false"
+    },
+    "AUTOLIKE_ENABLED": {
+      "description": "Auto like statuses (true/false)",
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
+  ]
+}
